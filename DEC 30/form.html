@@ -1,0 +1,46 @@
+<html>
+    <body align="center">
+        <br/>
+        <br/>
+        <br/>
+        <h1>Geekster Admission Form</h1>
+        <form>
+        <input type="text" name="first_name" placeholder="First Name" required/>
+        <br/>
+        <input type="text" name="last_name" placeholder="Last Name" required />
+        <br/>
+        <select name="gender" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="others">Others</option>
+        </select>
+        <br />
+        <input type="email" name="email" placeholder="Email ID" required />
+        <br/>
+        <input type="date" name="dob" placeholder="Date of Birth" required />
+        <br />
+        <input type="number" name="marks" placeholder="Marks" required min="0" max="100"/>
+        <br />
+        <select name="course" required>
+            <option value="Web">Web Fundamentals</option>
+            <option value="JS">Javascript Course</option>
+            <option value="Java">Java Developer</option>
+        </select>
+        <br />
+        <input type="password" name="pass" placeholder="Password" required minlength="5" maxlength="8" />
+        <br/>
+        <input type="password" name="cpass" placeholder="Confirm Password" required minlength="5" maxlength="8" />
+        <br/>
+        <br/>
+        <select name="city" required>
+            <option value="kol">Kolkata</option>
+            <option value="bengaluru">Bengaluru</option>
+            <option value="pune">Pune</option>
+        </select>
+        <br/>
+        <p>By clicking submit, you agree to our <a href="">terms and conditions.</a></p>
+        <input type="submit" />
+        </form>
+    
+    </body>
+</html>
